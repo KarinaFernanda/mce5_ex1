@@ -83,7 +83,7 @@ En una hoja de papel dibuje un gráfico hipotetico basado en la figura 4 del art
 
 
 **Respuesta (adjunte una foto de la imagen o genere una gráfica con código)**
-<center>![](hola.png)</center>
+<center>![](Gráfica.jpeg)</center>
 
 
 
