@@ -85,7 +85,7 @@ En una hoja de papel dibuje un gráfico hipotetico basado en la figura 4 del art
 **Respuesta (adjunte una foto de la imagen o genere una gráfica con código)**
 <center>![](Gráfica.jpeg)</center>
 
-
+La grafica nos muestra que a mayor facilitación, mayor diversidad de especies, cuandi hay mayor hacilitación, hay mayor numero de especies poco comunes
 
 
 # **[6 PUNTOS] Regresiones
