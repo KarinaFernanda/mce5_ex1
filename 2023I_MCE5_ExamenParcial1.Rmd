@@ -1,6 +1,6 @@
 ---
 title: "Examen parcial 1 - Métodos Cuantitativos en Ecología"
-author: 'Hello Hello'
+author: 'Karina Olalla'
 date: "23 de mayo de 2023"
 output: 
   html_document:
@@ -51,7 +51,7 @@ En el estudio realizado por <a href="https://doi.org/10.1111/jvs.13185">Sanches 
 ## Para su potencial investigación ¿Cuál sería su hipótesis ? (Explique)
 
 **Respuesta:**
-
+Hola g+hola
 
 ## Muestra
 
