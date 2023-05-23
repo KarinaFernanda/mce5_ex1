@@ -98,19 +98,9 @@ library(readr)
 mites <- read_csv("C:/Users/ORTEL/Downloads/ESTADÍSTICA/mce5_ex1/mites.csv")
 View(mites)
 ```
-##Analisis exploratorio
 
-```{r data}
-data(mites)
-str(mites)
-```
-La mayoría de los valores son numéricos, excepto "Substrate, Shrub,  Topography" que son valores categóricos.
-
-```{r explora}
-summary(mites)
-```
 - ¿Cuál es el efecto de las variables ambientales en la i) abundancia de ii) abundancia y iii) proporción de la especie *Galumma sp.*?
-
+ 
 
 Para responder esta pregunta debe generar las hipótesis y probar las hipótesis (código y explicación), asimismo visualizar con etiquetas adecuadas. Considere realizar lo siguiente:
 
@@ -133,6 +123,9 @@ summary(mites)
 
 
 - Realizar regresiones linearizadas de cada variable de respuesta y variables efectoras, univariable o multivariable. 
+```{r c2linear}
+plot(mites, 1)
+```
 
 - Realizar regresiones lineales generalizadas de cada variable de respuesta y variables efectoras, univariable o multivariable. 
 
