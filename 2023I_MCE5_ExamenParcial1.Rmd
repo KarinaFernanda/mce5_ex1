@@ -74,10 +74,13 @@ Explique el resultado muestra:
 ¿Cuáles son sus variables (dependiente(s) e independiente(s))? Explique cada una de las variables
 
 **Respuesta:**
-
+$Variable dependiente$ Diversidad de especies
+$Variable independiente$ La facilitación de la planta
 
 ## Gráfica e hipótesis
 En una hoja de papel dibuje un gráfico hipotetico basado en la figura 4 del artículo mostrando [Coloque adecuadamente las leyendas]. Describa su figura justifique su razonamiento.
+
+
 
 **Respuesta (adjunte una foto de la imagen o genere una gráfica con código)**
 <center>![](hola.png)</center>
@@ -89,13 +92,45 @@ En una hoja de papel dibuje un gráfico hipotetico basado en la figura 4 del art
 
 En esta parte debe aplicar las regresiones lineal, linearizada y generalizada sobre la presencia de ácaros en musgos. Una de las especies analizadas es *Galumma sp.* cuya abundancia presencia y proporción es posiblemente afectada por las siguiente cinco variables ambientales como densidad de sustrato, el tipo de sustrato, el contenido de agua, si se tiene o no arbustos en la cercanía y la topografía del suelo. Utilice la data ```mites.csv``` y responda los siguientes items. 
 
+#
+```{r}
+library(readr)
+mites <- read_csv("C:/Users/ORTEL/Downloads/ESTADÍSTICA/mce5_ex1/mites.csv")
+View(mites)
+```
+##Analisis exploratorio
+
+```{r data}
+data(mites)
+str(mites)
+```
+La mayoría de los valores son numéricos, excepto "Substrate, Shrub,  Topography" que son valores categóricos.
+
+```{r explora}
+summary(mites)
+```
 - ¿Cuál es el efecto de las variables ambientales en la i) abundancia de ii) abundancia y iii) proporción de la especie *Galumma sp.*?
+
 
 Para responder esta pregunta debe generar las hipótesis y probar las hipótesis (código y explicación), asimismo visualizar con etiquetas adecuadas. Considere realizar lo siguiente:
 
+
 - Realizar un análisis exploratorio.
+##Analisis exploratorio
+
+```{r data}
+data(mites)
+str(mites)
+```
+La mayoría de los valores son numéricos, excepto "Substrate, Shrub,  Topography" que son valores categóricos.
+
+```{r explora}
+summary(mites)
+```
+
 
 - Realizar regresiones lineales de cada variable de respuesta y variables efectoras, univariable o multivariable. Verifique los supuestos de la regresión. 
+
 
 - Realizar regresiones linearizadas de cada variable de respuesta y variables efectoras, univariable o multivariable. 
 
