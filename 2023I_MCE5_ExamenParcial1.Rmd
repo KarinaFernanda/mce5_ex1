@@ -54,7 +54,7 @@ En el estudio realizado por <a href="https://doi.org/10.1111/jvs.13185">Sanches 
 $Ho$ La facilitación no tiene efecto sobre la diversidad de especies, clasificadas en "especies comunes y especies poco comunes".
 $Ha$ La facilitación tiene gran efecto sobre la diversidad de especies, clasificandolas en "especies comunes y especies poco comunes".
 
-La facilitación permitirá modificar un microambiente, lo que le permitirá o no a una especie tener una amplia diversidad debido a los niveles de estrés. Además se podrá observar si hay más diversidad de especies comunes o especies poco comunes en el área de estudio.
+La facilitación permitirá modificar un microambiente, lo que le permitirá o no a una especie tener una amplia diversidad en un sitio, debido a los niveles de estrés. Además se podrá observar si hay más diversidad de especies comunes o especies poco comunes en el área de estudio
 
 ## Muestra
 
